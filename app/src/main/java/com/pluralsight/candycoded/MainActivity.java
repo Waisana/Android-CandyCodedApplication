@@ -87,7 +87,7 @@ public class MainActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         Intent infoIntent = new Intent(this, InfoActivity.class);
         startActivity(inforIntent);
-        return super.onOptionsItemSelected(item);.
+        return super.onOptionsItemSelected(item);
     }
 
     private void addCandiesToDatabase(Candy[] candies) {
